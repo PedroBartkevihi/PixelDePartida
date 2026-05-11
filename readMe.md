@@ -41,7 +41,7 @@ Você pode abrir o arquivo `index.html` diretamente no navegador.
 
 O projeto está disponível online pelo GitHub Pages:
 
-[Ver projeto online]https://pedrobartkevihi.github.io/PixelDePartida/
+[Ver projeto online](https://pedrobartkevihi.github.io/PixelDePartida/)
 
 ## Status do projeto
 
