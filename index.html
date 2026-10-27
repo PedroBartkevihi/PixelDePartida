@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Landing page de estudo sobre desenvolvimento web com HTML5 e CSS3.">
+    <meta name="description" content="Pixel de Partida — oficinas presenciais de desenvolvimento web para iniciantes, em Campinas. Empresa fictícia, projeto de estudo de front-end.">
     <meta name="author" content="Pedro Farias">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap">
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="icon" type="image/png" href="src/images/computador-portatil.png">
+    <link rel="icon" type="image/svg+xml" href="src/images/favicon.svg">
     <noscript><style>[data-revelar]{opacity:1;transform:none;}</style></noscript>
-    <title>Landing Page Pixel de Partida</title>
+    <title>Pixel de Partida | Oficinas de desenvolvimento web</title>
 </head>
 <body>
     <header class="cabecalho" id="topo">
         <div class="container cabecalho_conteudo">
-            <a href="#topo" class="cabecalho_logo">
-                <img src="src/images/logo.png" alt="Logo da Pixel de Partida">
+            <a href="#topo" class="cabecalho_logo" aria-label="Pixel de Partida - página inicial">
+                <img class="cabecalho_logo_icone" src="src/images/logo-icone.svg" alt="">
+                <span class="cabecalho_logo_texto">Pixel <span>de Partida</span></span>
             </a>
 
             <nav class="cabecalho_nav">
@@ -36,19 +37,19 @@
             <div class="container chamada_conteudo">
                 <div class="container_lista_chamada">
                     <h1>Aprenda desenvolvimento web na prática</h1>
-                    <p>Um projeto de estudo para praticar HTML, CSS e a estrutura de uma landing page real.</p>
+                    <p>Oficinas presenciais em turmas pequenas, em Campinas, para quem está começando e quer sair com o primeiro projeto pronto.</p>
                     <ul class="lista_chamada">
                         <li>Construa páginas modernas com HTML5 e CSS3.</li>
                         <li>Entenda a estrutura de uma landing page profissional.</li>
                         <li>Pratique organização de arquivos e estilos reutilizáveis.</li>
                         <li>Desenvolva layouts responsivos para desktop e celular.</li>
-                        <li>Dê os primeiros passos para se tornar webmaster.</li>
+                        <li>Termine a oficina com o primeiro projeto publicado no portfólio.</li>
                     </ul><!--lista_chamada-->
                 </div><!--container_lista_chamada-->
 
                 <div class="container_formulario">
                     <form class="formulario" action="#" method="post">
-                        <h2>Preencha o formulário e inicie a sua caminhada para se tornar um webmaster</h2>
+                        <h2>Preencha o formulário e garanta sua vaga na próxima turma</h2>
 
                         <div class="formulario_campo">
                             <label for="nome">Nome:</label>
@@ -75,14 +76,14 @@
 
         <section class="descricao" id="sobre">
             <div class="container descricao_conteudo" data-revelar>
-                <span class="secao_kicker">Sobre o projeto</span>
+                <span class="secao_kicker">Sobre a Pixel de Partida</span>
                 <h2>Aprenda criando projetos reais desde o início</h2>
-                <p>A melhor forma de evoluir no desenvolvimento web é praticando com projetos visuais,
-                    organizados e próximos do mercado. Aqui você começa a construir páginas modernas,
-                    melhorar sua base em HTML e CSS e preparar seus primeiros projetos para o portfólio.</p>
+                <p>Cada encontro é uma oficina prática: você aprende um conceito, aplica no seu próprio
+                    projeto e recebe orientação de perto. As turmas são pequenas para ninguém ficar para trás,
+                    e ao final você tem um site organizado, responsivo e pronto para o portfólio.</p>
 
                 <div class="logo_descricao">
-                    <img src="src/images/arrow.png" alt="Seta">
+                    <img src="src/images/seta.svg" alt="">
                 </div><!--logo_descricao-->
             </div><!--descricao_conteudo-->
         </section><!--descricao-->
@@ -92,24 +93,24 @@
             <h2>Aprenda com quem está no mercado!</h2>
             <div class="container_planos">
                 <div class="planos_conteudo" data-revelar>
-                    <img src="src/images/icon.png" alt="Computador">
+                    <img src="src/images/icone-plano.svg" alt="">
                     <h4>Plano Start</h4>
-                    <p>Para quem deseja aprender os primeiros conceitos de desenvolvimento web,
+                    <p>Quatro encontros para aprender os primeiros conceitos de desenvolvimento web,
                         entendendo a base de HTML, CSS e organização de páginas.</p>
                 </div><!--planos_conteudo-->
 
                 <div class="planos_conteudo" data-revelar>
-                    <img src="src/images/icon.png" alt="Computador">
+                    <img src="src/images/icone-plano.svg" alt="">
                     <h4>Plano Plus</h4>
-                    <p>Para quem quer avançar na criação de interfaces mais profissionais,
+                    <p>Oito encontros para avançar na criação de interfaces mais profissionais,
                         com foco em responsividade, formulários e boas práticas visuais.</p>
                 </div><!--planos_conteudo-->
 
                 <div class="planos_conteudo" data-revelar>
-                    <img src="src/images/icon.png" alt="Computador">
+                    <img src="src/images/icone-plano.svg" alt="">
                     <h4>Plano Pro</h4>
-                    <p>Para quem busca desenvolver projetos mais completos, fortalecer o portfólio
-                        e se preparar melhor para atuar no mercado.</p>
+                    <p>Doze encontros com mentoria individual para desenvolver um projeto completo,
+                        revisar o portfólio e se preparar melhor para atuar no mercado.</p>
                 </div><!--planos_conteudo-->
             </div><!--container_planos-->
         </section><!--planos-->
@@ -118,8 +119,8 @@
 
     <footer class="rodape">
         <div class="container rodape_conteudo">
-            <h2>Landing Page de estudo — HTML, CSS e JavaScript</h2>
-            <small>Projeto de estudo desenvolvido por Pedro Farias &middot; 2026</small>
+            <h2>Pixel de Partida &middot; Seu primeiro projeto ganha forma.</h2>
+            <small>Empresa fictícia &middot; Projeto de estudo desenvolvido por Pedro Farias &middot; 2026</small>
         </div><!--rodape_conteudo-->
     </footer><!--rodape-->
 
