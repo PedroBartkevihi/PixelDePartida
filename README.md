@@ -1,32 +1,27 @@
-# Landing Page Pixel de Partida
+# Pixel de Partida — Landing Page (projeto de estudo)
 
-Projeto de estudo de **HTML5**, **CSS3** e **JavaScript**, com foco em
-estruturação de páginas, estilização de formulários, organização de arquivos,
-responsividade e pequenas interações.
+**Ver online:** https://pedrobartkevihi.github.io/PixelDePartida/
 
-> Recriação **para fins de estudo**, sem fins comerciais, inspirada em uma
-> landing page educacional. As marcas e imagens usadas pertencem aos seus
-> respectivos donos e aparecem aqui só a título ilustrativo.
+Landing page **fictícia** de uma escola de oficinas presenciais de
+desenvolvimento web para iniciantes, criada **para fins de estudo**. Partindo
+de um exercício de curso feito só com HTML e CSS, o objetivo foi modernizar o
+visual — layout, tipografia, cores, espaçamentos, botões, cards,
+responsividade e pequenas interações — mantendo o estilo de escrita do código
+original.
 
-## Tecnologias usadas
+A **Pixel de Partida**, as turmas, os planos e os textos são inventados para
+este projeto e não correspondem a nenhuma empresa real.
+
+## Tecnologias
 
 - HTML5
 - CSS3 (variáveis em `:root`, flexbox, `clamp()` e media queries)
 - JavaScript (vanilla, sem dependências)
-- [Google Fonts](https://fonts.google.com/) — Inter e Poppins
+- [Google Fonts](https://fonts.google.com/) — Inter e Poppins (OFL)
 
-## Funcionalidades
+Sem frameworks e sem etapa de build: é só abrir o `index.html`.
 
-- Cabeçalho fixo com logo, menu de navegação e menu mobile (dropdown)
-- Seção inicial com chamada, lista de benefícios e formulário de contato
-- Seção descritiva do projeto
-- Seção de planos com cards informativos
-- Rodapé
-- Layout responsivo (desktop, notebook, tablet e celular)
-- Interações: sombra no header ao rolar, revelação de blocos ao entrar na tela
-  e feedback ao enviar o formulário
-
-## Estrutura de pastas
+## Estrutura
 
 ```
 Projeto1/
@@ -37,19 +32,30 @@ Projeto1/
     ├── js/
     │   └── script.js
     └── images/
+        ├── logo-icone.svg  (ícone da logo, ao lado da marca em texto)
+        ├── favicon.svg     (ícone da aba do navegador)
+        ├── topo.jpg        (foto da seção inicial)
+        ├── seta.svg        (seta da seção "Sobre")
+        └── icone-plano.svg (ícone dos cards de planos)
 ```
 
-## Aprendizados
+## Seções
 
-- estruturação semântica com HTML;
-- uso de classes e variáveis para organização do CSS;
-- estilização de formulários e estados de foco;
-- criação de cards e layout com `flexbox`;
-- media queries para responsividade;
-- interações simples com JavaScript, respeitando `prefers-reduced-motion`;
-- organização de pastas e arquivos.
+1. **Cabeçalho** — logo, menu de navegação e menu mobile (dropdown).
+2. **Chamada** — título, lista de benefícios e formulário de inscrição.
+3. **Sobre** — como funcionam as oficinas.
+4. **Planos** — três cards com os formatos de turma.
+5. **Rodapé** — marca e slogan.
 
-## Como visualizar o projeto
+## Interações (`src/js/script.js`)
+
+- Abre/fecha o menu no mobile (com `Esc`, clique fora e clique em link).
+- Sombra no cabeçalho ao rolar a página.
+- Elementos `[data-revelar]` surgem ao entrar na tela (`IntersectionObserver`).
+- Feedback ao enviar o formulário (não há back-end).
+- Respeita `prefers-reduced-motion` e funciona sem JavaScript.
+
+## Como executar
 
 Abra o `index.html` no navegador, ou rode um servidor estático na pasta do
 projeto:
@@ -60,16 +66,16 @@ python -m http.server 8080
 
 E acesse `http://localhost:8080`.
 
-## Deploy
+## Créditos das imagens
 
-O projeto está disponível online pelo GitHub Pages:
+A foto da seção inicial é do [Pexels](https://www.pexels.com/photo/6424588/)
+(licença livre, sem necessidade de atribuição), redimensionada e sem
+metadados. A logo, o favicon, a seta e o ícone dos planos são SVGs simples,
+desenhados para este projeto.
 
-[Ver projeto online](https://pedrobartkevihi.github.io/PixelDePartida/)
+## Uso
 
-## Status do projeto
-
-Projeto de estudo finalizado.
-
-## Autor
-
-Desenvolvido por Pedro Farias.
+Repositório de **estudo de front-end, sem fins comerciais**. O código-fonte
+(HTML, CSS e JavaScript) é de autoria de **Pedro Farias** e pode ser
+reaproveitado livremente. Toda a identidade (nome da escola, textos e planos)
+é fictícia.
