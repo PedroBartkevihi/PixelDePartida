@@ -10,6 +10,7 @@
     --cor-primaria-clara: #5a5fa6;
     --cor-destaque: #ff6b4a;
     --cor-destaque-escura: #e2543a;
+    --cor-destaque-texto: #bf4128;
 
     --cor-texto: #1f2233;
     --cor-texto-suave: #5b6070;
@@ -329,7 +330,7 @@ a{
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--cor-destaque-escura);
+    color: var(--cor-destaque-texto);
 }
 
 .descricao{
