@@ -87,10 +87,28 @@ a{
 
 .cabecalho_logo{
     display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
 }
 
-.cabecalho_logo img{
-    width: 150px;
+.cabecalho_logo_icone{
+    width: 22px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.cabecalho_logo_texto{
+    font-family: 'Poppins', 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+
+.cabecalho_logo_texto span{
+    color: var(--cor-destaque);
 }
 
 .cabecalho_menu{
@@ -451,11 +469,11 @@ input:focus-visible,
     border-radius: 2px;
 }
 
-.cabecalho_logo img{
+.cabecalho_logo{
     transition: opacity var(--transicao);
 }
 
-.cabecalho_logo:hover img{
+.cabecalho_logo:hover{
     opacity: 0.85;
 }
 
@@ -607,7 +625,7 @@ input:focus-visible,
 
 @media screen and (max-width: 400px){
 
-    .cabecalho_logo img{
-        width: 128px;
+    .cabecalho_logo_texto{
+        font-size: 1.05rem;
     }
 }
