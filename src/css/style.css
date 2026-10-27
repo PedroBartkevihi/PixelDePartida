@@ -165,7 +165,7 @@ a{
 .chamada{
     background-image:
         linear-gradient(120deg, rgba(28, 30, 64, 0.92) 0%, rgba(28, 30, 64, 0.6) 55%, rgba(28, 30, 64, 0.35) 100%),
-        url(../images/header_bg.png);
+        url(../images/topo.jpg);
     background-position: center;
     background-size: cover;
 }
